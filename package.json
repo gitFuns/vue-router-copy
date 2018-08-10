@@ -1,0 +1,26 @@
+{
+  "name": "vue-router-copy",
+  "version": "1.0.0",
+  "description": "master router skill via vue-router",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitFuns/vue-router-copy.git"
+  },
+  "keywords": [
+    "router",
+    "vue"
+  ],
+  "author": "joshua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitFuns/vue-router-copy/issues"
+  },
+  "homepage": "https://github.com/gitFuns/vue-router-copy#readme"
+}
