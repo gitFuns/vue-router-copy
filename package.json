@@ -1,6 +1,6 @@
 {
   "name": "vue-router-copy",
-  "version": "1.0.0",
+  "version": "0.7.13",
   "description": "master router skill via vue-router",
   "main": "index.js",
   "directories": {
@@ -17,10 +17,49 @@
     "router",
     "vue"
   ],
+  "devDependencies": {
+    "babel-core": "5.8.33",
+    "babel-loader": "5.3.3",
+    "babel-runtime": "5.8.29",
+    "chromedriver": "2.20.0",
+    "css-loader": "0.23.1",
+    "es6-promise": "3.0.2",
+    "eslint": "1.3.1",
+    "express": "4.12.3",
+    "gitbook-plugin-edit-link": "2.0.2",
+    "gitbook-plugin-github": "2.0.0",
+    "istanbul-instrumenter-loader": "0.1.3",
+    "jasmine-core": "2.3.2",
+    "karma": "0.13.8",
+    "karma-coverage": "0.5.0",
+    "karma-jasmine": "0.3.5",
+    "karma-phantomjs-launcher": "0.2.1",
+    "karma-sourcemap-loader": "0.3.7",
+    "karma-spec-reporter": "0.0.23",
+    "karma-webpack": "1.7.0",
+    "nightwatch": "0.8.15",
+    "phantomjs": "1.9.19",
+    "rollup": "0.21.0",
+    "rollup-plugin-babel": "1.0.0",
+    "selenium-server": "2.53.0",
+    "style-loader": "0.13.0",
+    "uglify-js": "2.5.0",
+    "vue": "1.0.14",
+    "vue-hot-reload-api": "1.2.1",
+    "vue-html-loader": "1.0.0",
+    "vue-loader": "6.0.3",
+    "webpack": "1.11.0",
+    "webpack-dev-server": "1.10.1"
+  },
   "author": "joshua",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/gitFuns/vue-router-copy/issues"
   },
-  "homepage": "https://github.com/gitFuns/vue-router-copy#readme"
+  "homepage": "https://github.com/gitFuns/vue-router-copy#readme",
+  "jspm": {
+    "main": "src/index.js",
+    "registry": "npm",
+    "format": "esm"
+  }
 }
